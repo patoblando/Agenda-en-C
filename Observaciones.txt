@@ -1,0 +1,23 @@
+Al compilar: 
+
+main.c: In function ‘comando_contacto’:
+main.c:218:18: warning: increment of a boolean expression [-Wbool-operation]
+       bandOpcionL++ ;
+                  ^~
+main.c: In function ‘comando_buscar’:
+main.c:275:19: warning: increment of a boolean expression [-Wbool-operation]
+       bandOpcionNT++ ;
+                   ^~
+main.c:287:19: warning: increment of a boolean expression [-Wbool-operation]
+       bandOpcionNT++ ;
+                   ^~
+main.c:294:20: warning: increment of a boolean expression [-Wbool-operation]
+       bandOpcionDef++ ;
+                    ^~
+main.c: In function ‘menu’:
+main.c:336:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+     gets(comando) ;
+     ^~~~
+     fgets
+/tmp/ccdSTw2k.o: In function `menu':
+/mnt/d/Fede/Secundario/Taller de Programación/2021/TP1/Entregas/Aguirre Damonte-Blando/main.c:336: warning: the `gets' function is dangerous and should not be used.

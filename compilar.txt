@@ -1,0 +1,3 @@
+gcc -c slist.c
+gcc -c contactos.c
+gcc -Wall -o agenda main.c slist.o
